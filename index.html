@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type ="text/css" href = "style.css"/>
+
+    <title></title>
+  </head>
+  <body>
+    <div ng-app="">
+      <!-- <input ng-model="noun" type="text" placeholder="Noun">
+      <input ng-model="adjective" type="text" placeholder="Adjective" >
+      <h1>El {{noun}} es {{adjective}}</h1> -->
+      <h1>Hello! What is your name?</h1>
+      <input ng-model="name" type="text" placeholder="Please type your name" >
+      <h4>Number one</h4>
+      <input ng-model="number1" type="number" placeholder="Type a number" >
+      <h4>Number two</h4>
+      <input ng-model="number2" type="number" placeholder="Type a number" >
+      <h3 ng-if = "number1 && number2">  {{'Hello  '+ name}}  your Total is : {{number1 * number2}}</h3>
+      <!-- <h3 ng-if>{{'Hello  '+ name}}  your Total is : {{number1 * number2}}</h3>  -->
+      
+    </div>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script> -->
+    <script src "script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  </body>
+</html>
